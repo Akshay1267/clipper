@@ -1,0 +1,35 @@
+# Environment & Secrets (NEVER commit API keys)
+.env
+*.env
+backend/.env
+!backend/.env.example
+
+# Python virtual environment & cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data, media & logs
+backend/data/
+backend/output/
+*.log
+*.mp4
+*.m4a
+*.wav
+
+# Node & Next.js
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+.turbo/
+npm-debug.log*
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
